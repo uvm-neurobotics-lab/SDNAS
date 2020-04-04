@@ -1,6 +1,4 @@
-# iclr-nas
-Submission for ICLR NAS workshop
-
+# Stochastic Differentiable NAS Benchmarking
 Please note that this is essentially a fork of [the official repository for GDAS](https://github.com/D-X-Y/AutoDL-Projects) and that repository contains a description for the software required to run this code and documentation for most of its contents.
 
 The only difference in use from the above repository is that I have changed the significance of the command line arguments passed to the search script. Instead of (dataset, track_batch_norm, random_seed) the three required arguments passed to the search script on the command line are now (bilevel, resource_constraint, random_seed). The dataset has been fixed as CIFAR10 and tracking the batch norm is disabled. 
